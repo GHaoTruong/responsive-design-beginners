@@ -57,6 +57,16 @@ a:active {
 .grid__main, .grid__sidebar {
   padding: 40px;
 }
+@media (max-width: 56.2485em) {
+  .grid__main, .grid__sidebar {
+    text-align: center;
+  }
+}
+@media (min-width: 43.75em) {
+  .grid__main, .grid__sidebar {
+    text-align: left;
+  }
+}
 .grid__main {
   background-color: green;
 }
