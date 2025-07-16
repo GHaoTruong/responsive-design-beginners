@@ -25,6 +25,11 @@ h3 {
   margin-top: 0;
 }
 
+h1 {
+  /*this is mobile size */
+  font-size: clamp(28px, 16px + 2vw, 40px);
+}
+
 p {
   margin-top: 0;
 }
@@ -69,6 +74,16 @@ a:active {
 }
 .grid__main {
   background-color: green;
+}
+@media (min-width: 43.75em) {
+  .grid__main {
+    background-color: orange;
+  }
+}
+@media (min-width: 56.25em) {
+  .grid__main {
+    background-color: red;
+  }
 }
 .grid__sidebar {
   background-color: darkblue;

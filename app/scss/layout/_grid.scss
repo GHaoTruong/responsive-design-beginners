@@ -28,6 +28,14 @@
 
   &__main {
     background-color: green;
+
+    @include ulti.breakpoint(medium) {
+      background-color: orange;
+    }
+
+    @include ulti.breakpoint(large) {
+      background-color: red;
+    }
   }
   &__sidebar {
     background-color: darkblue;
