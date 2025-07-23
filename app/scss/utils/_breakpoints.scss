@@ -1,10 +1,11 @@
 @use 'sass:map';
+@use 'functions' as func;
 
 // 700px, 900px, 1440px
 $breakpoints-up: (
-  'medium': 43.75em,
-  'large': 56.25em,
-  'xlarge': 90em,
+  'medium': func.rem(700),
+  'large': func.rem(900),
+  'xlarge': func.rem(1440),
 );
 
 // 699.98px, 899.99px, 1399.99px
